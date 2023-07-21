@@ -1,7 +1,7 @@
 import Task from "./components/task/Task";
 import AllTasksContainer from "./components/allTasks-container/AllTasksContainer";
 import PinnedContainer from "./components/pinned-container/PinnedContainer";
-import FormWidget from "./components/formWidget/formWidget";
+import FormWidget from "./components/formWidget/FormWidget";
 import { containsText, filterBy } from "./components/filterWidget/filter";
 
 const filterCb = (search, task) => {
