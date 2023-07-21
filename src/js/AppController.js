@@ -48,7 +48,7 @@ export default class AppController {
     onEnter(e) {
         e.preventDefault();
         console.log('Добавляем задачу!');
-        const input = this.formWidgetEl.querySelector('[type="text"]');
+        const input = this.formWidgetEl.querySelector('#top-tasks');
         this.formWidgetEl.currentTaskText = input.value;
         input.value = '';
 
