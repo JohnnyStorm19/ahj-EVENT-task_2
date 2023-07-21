@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.tasks-container {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.219);
+}
+
+.top-tasks-block,
+.pinned-tasks-block,
+.all-tasks-block {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-size: 20px;
+}
+
+.tasks-title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.no-tasks {
+  font-size: 0.9rem;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  height: 2rem;
+}
